@@ -1,22 +1,20 @@
 {
   "name": "assignment1",
-  "version": "1.0.0",
-  "description": "Express Portfolio",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Rachael-Ajayi/Assignment1.git"
-  },
-  "author": "Rachael Ajayi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Rachael-Ajayi/Assignment1/issues"
-  },
-  "homepage": "https://github.com/Rachael-Ajayi/Assignment1#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "bootstrap": "^5.2.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.1",
+    "morgan": "~1.9.1",
+    "popper.js": "^1.16.1"
   }
 }
