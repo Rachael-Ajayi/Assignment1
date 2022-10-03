@@ -1,3 +1,8 @@
+// FILENAME: Assignment1
+// NAME: RACHAEL AJAYI
+// STUDENTID: 301146832
+// DATE: 2ND OCTOBER, 2022
+
 // installed third party Packages
 let createError = require('http-errors');
 let express = require('express');
@@ -6,7 +11,7 @@ let cookieParser = require('cookie-parser');
 let logger = require('morgan');
 
 let indexRouter = require('./routes/index');
-let usersRouter = require('./routes/users');
+
 
 let app = express();
 
@@ -23,7 +28,7 @@ app.use(express.static(path.join(__dirname, 'node_modules')));
 
 // declaring routers to their views
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+
 
 
 // catch 404 and forward to error handler
