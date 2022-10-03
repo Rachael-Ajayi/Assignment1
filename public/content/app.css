@@ -1,1 +1,10 @@
 /*custom css goes here*/
+ul
+{
+    margin-left: auto;
+}
+
+.copyright
+{
+    font-size:x-small;
+}
