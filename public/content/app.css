@@ -8,3 +8,25 @@ ul
 {
     font-size:x-small;
 }
+
+.jumbotron
+{
+    text-align: center;
+    align-items: center;
+}
+
+.display-4
+{
+    font-family: 'Dancing Script', cursive;
+}
+
+table
+{
+    margin-left: 10%;
+}
+
+#service
+{
+    font-size:xx-large;
+    font-family: 'Dancing Script', cursive;
+}

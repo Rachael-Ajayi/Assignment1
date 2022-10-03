@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+// FILENAME: Assignment1
+// NAME: RACHAEL AJAYI
+// STUDENTID: 301146832
+// DATE: 2ND OCTOBER, 2022
+
 /**
  * Module dependencies.
  */

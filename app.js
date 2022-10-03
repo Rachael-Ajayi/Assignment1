@@ -24,10 +24,7 @@ app.use(express.static(path.join(__dirname, 'node_modules')));
 // declaring routers to their views
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/projects', projectsRouter);
-app.use('/services', servicesRouter);
-app.use('/about', aboutRouter);
-app.use('/contact', contactRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
